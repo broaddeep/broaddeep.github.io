@@ -30,6 +30,14 @@ wget.exe https://download.jetbrains.com/python/pycharm-community-2018.2.4.exe
 
 pycharm-community-2018.2.4.exe /S
 
+"\ProgramData\Anaconda3\Scripts\pip" install spacy
+
+"\ProgramData\Anaconda3\python" -m spacy download en
+
+"\ProgramData\Anaconda3\python" -c "import nltk; nltk.download('wordnet')"
+
 "\Program Files (x86)\Google\Chrome\Application\Chrome.exe" bitbucket.org -incognito
+
+"C:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\bin\pycharm64.exe"
 
 echo "FINISHED SET UP"
