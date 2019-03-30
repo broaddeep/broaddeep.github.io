@@ -36,6 +36,8 @@ pycharm-community-2018.2.4.exe /S
 
 "\ProgramData\Anaconda3\python" -c "import nltk; nltk.download('wordnet')"
 
+"\ProgramData\Anaconda3\Scripts\pip" install pymysql
+
 "\Program Files (x86)\Google\Chrome\Application\Chrome.exe" bitbucket.org -incognito
 
 "C:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\bin\pycharm64.exe"
