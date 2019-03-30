@@ -30,6 +30,6 @@ wget.exe https://download.jetbrains.com/python/pycharm-community-2018.2.4.exe
 
 pycharm-community-2018.2.4.exe /S
 
-"\Program Files (x86)\Google\Chrome\Application\Chrome.exe" -incognito --app=bitbucket.org
+"\Program Files (x86)\Google\Chrome\Application\Chrome.exe" bitbucket.org -incognito
 
 echo "FINISHED SET UP"
