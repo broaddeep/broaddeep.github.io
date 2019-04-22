@@ -43,3 +43,11 @@ pycharm-community-2018.2.4.exe /S
 "C:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\bin\pycharm64.exe"
 
 echo "FINISHED SET UP"
+
+
+
+# make jupyter notebook open to public, restricting the token
+
+```
+jupyter notebook --ip=0.0.0.0 --NotebookApp.token=abcd
+```
